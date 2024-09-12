@@ -59,7 +59,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   Lijst met je bevindingen die in de test naar voren kwamen:
   - screen reader is (voor mij) heel warrig. Hij leest dingen voor waar ik nog helemaal niet om "vroeg".
   - ik heb de website nagekeken met "lighthouse" die aangeeft dat de hema website een 83/100 scoort.
-    <img src="./images/hema-goed-idee.jpeg" width="375px" alt="hema lighthouse score">
+    <img src="./images/lighthouse.png" width="375px" alt="hema lighthouse score">
 
 </details>
 

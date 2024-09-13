@@ -234,5 +234,6 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
   1. Zoekbalk. Ik heb opgezocht hoe ik een zoekbalk in html css kon maken en heb dat antwoord uiteindelijk hier gevonden: https://www.w3schools.com/howto/howto_css_searchbar.asp
   2. afbeeldingen gebruikt van de HEMA website zelf: logo en profile/basket images.
+  3. image scrollbar code (wel zelf hier en daar aangepast om bij mijn website te passen): 
 
 </details>

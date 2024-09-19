@@ -234,6 +234,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
   1. Zoekbalk. Ik heb opgezocht hoe ik een zoekbalk in html css kon maken en heb dat antwoord uiteindelijk hier gevonden: https://www.w3schools.com/howto/howto_css_searchbar.asp
   2. afbeeldingen gebruikt van de HEMA website zelf: logo en profile/basket images.
-  3. image scrollbar code (wel zelf hier en daar aangepast om bij mijn website te passen): https://www.w3schools.com/howto/howto_css_image_gallery_scroll.asp 
+  3. image scrollbar code (wel zelf hier en daar aangepast om bij mijn website te passen): https://www.w3schools.com/howto/howto_css_image_gallery_scroll.asp
+  4. tekstveld laten overlappen met een image: https://www.bannerbear.com/blog/how-to-overlay-text-on-an-image-in-html-and-css/#:~:text=Overlaying%20Text%20on%20an%20Image%20in%20HTML%20and%20CSS,-HTML&text=In%20the%20body%20section%2C%20create,and%20add%20your%20text%20inside.&text=We%20know%20that%20in%20real,to%20contain%20an%20image%20only.
 
 </details>

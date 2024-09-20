@@ -1,0 +1,175 @@
+html {
+  font-family: "Quicksand", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+header {
+	list-style: none;
+	display: flex;
+	justify-content: space-between;
+} 
+
+header ul {
+	display: flex;
+	list-style: none;
+}
+
+header li {
+	padding-right: 1em;
+}
+
+header img {
+	display: flex;
+	justify-content: left;
+	width: 3em;
+	padding: 0.5em;
+}
+
+.profile {
+	display: flex;
+	justify-content: right;
+	max-width: 20px;
+	height: 25px;
+	padding-left: 8em;
+}
+
+.basket {
+	display: flex;
+	justify-content: right;
+	max-width: 25px;
+	height: 25px;
+	padding-right: 5em;
+}
+
+h1 {
+	font-size: small;
+	font-weight: 100;
+	padding-left: 4em;
+}
+
+/* Add a black background color to the top navigation bar */
+.topnav {
+	display: flex;
+	padding-top: 1em;
+	padding-left: 1em;
+	padding-right: 1em;
+  }
+  
+  /* Change the color of links on hover */
+  .topnav a:hover {
+	color: black;
+  }
+  
+  /* When the screen is less than 600px wide, stack the links and the search field vertically instead of horizontally */
+  @media screen and (max-width: 600px) {
+	.topnav a, .topnav input[type=search] {
+	  float: none;
+	  display: block;
+	  text-align: left;
+	  width: 100%;
+	  margin: 0;
+	  padding: 14px;
+	  margin-bottom: 1em;
+	}
+	.topnav input[type=search] {
+	  border: 1px solid rgb(240, 239, 239);
+	  background-color: rgb(240, 239, 239);
+	  border-radius: 5ch;
+	  font-family:"Quicksand", sans-serif;
+	}
+  }
+
+main p {
+	padding-left: 1em;
+	padding-top: 1em;
+	color: rgb(118, 118, 118);
+}
+
+main a {
+	padding-left: 1em;
+	color: rgb(118, 118, 118);
+	text-decoration: none;
+}
+
+main img {
+	max-width: 20em;
+	padding: 1em;
+}
+
+/* Bron in bronnenlijst, maar wel lichtelijk zelf aangepast */
+div.scroll-container {
+	overflow: auto;
+	white-space: nowrap;
+	padding: 1px;
+	margin-top: 1em;
+  }
+  
+  div.scroll-container img {
+	padding: 4px;
+  }
+
+.image-container {
+	position: relative;
+	display: inline-block;
+}
+
+.image-container img {
+	/* padding: 0em;
+	max-width: 100%; */
+	display: block;
+	width: 100%;
+	height: auto;
+	margin-top: 0%;
+}
+
+.lightbulb {
+	display: flex;
+	width: 100%;
+	height: auto;
+	margin-top:9em;
+}
+
+.overlay-text {
+	position: absolute;
+	top: 78%; 
+	/* margin, width en position is Thomas zn schuld */
+	margin-left: 8.9em; 
+	transform: translate(-50%, -50%); 
+	background-color: rgb(71, 182, 73); 
+	color: #fff; 
+	padding: 1px; 
+	font-size: 20px; 
+	text-align: center;
+	width: 85%;
+}
+
+.main-tekst {
+	display: block;
+	text-align: left;
+	padding-right: 1em;
+}
+
+#levertijd {
+	color: rgb(12, 139, 68);
+	font-weight: 600;
+	padding-right: 0.5em;
+}
+
+#winkelmandbutton {
+	background-color: rgb(247, 192, 22);
+	border: 0;
+	border-radius: 1ch;
+}
+
+#winkelvoorraad {
+	background-color: rgb(255, 255, 255);
+	border: 0;
+	border: 1px solid rgb(50, 50, 50);
+	border-radius: 1ch;
+}
+
+#truck {
+	max-width: 2em;
+}
+

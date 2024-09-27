@@ -1,7 +1,17 @@
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
 html {
   font-family: "Quicksand", sans-serif;
   font-optical-sizing: auto;
   font-style: normal;
+}
+
+body {
+	margin: 0%;
 }
 
 header {
@@ -10,13 +20,13 @@ header {
 	justify-content: space-between;
 } 
 
-header ul {
-	display: flex;
-	list-style: none;
+header button {
+	background-color: #fff;
+	border: 0;
 }
 
-header li {
-	padding-right: 1em;
+header button img {
+	width: 25%;
 }
 
 header img {
@@ -26,7 +36,7 @@ header img {
 	padding: 0.5em;
 }
 
-.profile {
+/* .profile {
 	display: flex;
 	justify-content: right;
 	max-width: 20px;
@@ -40,13 +50,7 @@ header img {
 	max-width: 25px;
 	height: 25px;
 	padding-right: 5em;
-}
-
-h1 {
-	font-size: small;
-	font-weight: 100;
-	padding-left: 4em;
-}
+} */
 
 /* Add a black background color to the top navigation bar */
 .topnav {
@@ -80,96 +84,156 @@ h1 {
 	}
   }
 
-main p {
-	padding-left: 1em;
-	padding-top: 1em;
-	color: rgb(118, 118, 118);
-}
-
-main a {
-	padding-left: 1em;
-	color: rgb(118, 118, 118);
-	text-decoration: none;
-}
-
-main img {
-	max-width: 20em;
-	padding: 1em;
-}
-
-/* Bron in bronnenlijst, maar wel lichtelijk zelf aangepast */
-div.scroll-container {
-	overflow: auto;
-	white-space: nowrap;
-	padding: 1px;
-	margin-top: 1em;
+.lijn {
+	height: 2px;
+	width: 100%;
+	background-color: gray;
+	display: block;
   }
   
-  div.scroll-container img {
-	padding: 4px;
+  /* .product */
+  
+.product a {
+	font-size: small;
+	font-weight: 700;
+	color: rgb(118, 118, 118);
+	padding: 2em;
+	text-decoration: none;
+  }
+ 
+  p {
+	padding: 0;
+	margin: 0;
+  }
+  
+  ul {
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+  }
+  
+  .product ul {
+	display: flex;
+	gap: 1em;
+	overflow-x: scroll;
+	padding-left: 1em;
+	padding-top: 1em;
+  }
+  
+  .product ul li {
+	width: 70vw;
+	flex-shrink: 0;
+  }
+  
+  .product ul li img {
+	width: 100%;
+  }
+  
+  .product > p {
+	padding: .7em;
+	background-color: rgb(70, 102, 172);
+	color: #fff;
+	width: fit-content;
+	border-radius: 4px;
+	font-weight: 900;
+  }
+  
+  .product div {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+  }
+  
+  /* verzending */
+  
+  .verzending div {
+	display: flex;
+  }
+  
+  .verzending div button {
+	display: flex;
+	align-items: center;
+	gap: 1em;
+	flex-grow: 1;
+	background-color: rgb(247, 192, 22);
+	padding: 1em;
+	border: 0;
+	border-radius: 5px;
   }
 
-.image-container {
-	position: relative;
-	display: inline-block;
-}
-
-.image-container img {
-	/* padding: 0em;
-	max-width: 100%; */
-	display: block;
-	width: 100%;
-	height: auto;
-	margin-top: 0%;
-}
-
-.lightbulb {
+  .verzending button {
 	display: flex;
-	width: 100%;
-	height: auto;
-	margin-top:9em;
-}
+	gap: 1em;
+	flex-grow: 1;
+	background-color: white;
+	padding: 1em;
+	border: 1;
+	border-radius: 5px;
+  }
+  
+  .verzending ul li {
+	display: flex;
+	align-items: center;
+  }
 
-.overlay-text {
+  .verzending img {
+	padding-top: 2em;
+	width: 25px;
+  }
+
+  .verzending ul li p {
+	padding-top: 2em;
+  }
+  
+  /* upsale */
+  
+  .upsale ul {
+	display: flex;
+	gap: 1em;
+	overflow-x: scroll;
+	padding-left: 1em;
+	padding-top: .5em;
+  }
+
+  .upsale a {
+	display: flex;
+	font-size: small;
+  }
+  
+  .upsale ul li {
+	width: 50vw;
+	flex-shrink: 0;
+  }
+  
+  .upsale ul li div:nth-of-type(1) {
+	position: relative;
+  }
+  
+  .upsale ul li div:nth-of-type(1) button {
 	position: absolute;
-	top: 78%; 
-	/* margin, width en position is Thomas zn schuld */
-	margin-left: 8.9em; 
-	transform: translate(-50%, -50%); 
-	background-color: rgb(71, 182, 73); 
-	color: #fff; 
-	padding: 1px; 
-	font-size: 20px; 
-	text-align: center;
-	width: 85%;
-}
-
-.main-tekst {
 	display: block;
-	text-align: left;
-	padding-right: 1em;
-}
-
-#levertijd {
-	color: rgb(12, 139, 68);
-	font-weight: 600;
-	padding-right: 0.5em;
-}
-
-#winkelmandbutton {
-	background-color: rgb(247, 192, 22);
-	border: 0;
-	border-radius: 1ch;
-}
-
-#winkelvoorraad {
-	background-color: rgb(255, 255, 255);
-	border: 0;
-	border: 1px solid rgb(50, 50, 50);
-	border-radius: 1ch;
-}
-
-#truck {
-	max-width: 2em;
-}
-
+	top: 1em;
+	right: 1em;
+  }
+  
+  .upsale ul li div:nth-of-type(1) p {
+	position: absolute;
+	bottom: 1em;
+	left: 0;
+	padding: .4em;
+	color: #fff;
+	font-weight: 900;
+	background-color: blue;
+	border-radius: 0 10px 10px 0;
+  }
+  
+  .upsale ul li img {
+	width: 100%;
+  }
+  
+  .upsale ul li div:nth-of-type(2) {
+	display: flex;
+	width: 5em;
+	justify-content: space-between;
+	align-items: center;
+  }

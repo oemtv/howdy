@@ -198,6 +198,7 @@ header img {
   .upsale a {
 	display: flex;
 	font-size: small;
+	text-decoration: none;
   }
   
   .upsale ul li {

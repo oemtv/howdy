@@ -14,14 +14,31 @@
 	<link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap" rel="stylesheet">
 </head>
 <body>
-    <script defer src="scripts/script.js"></script>
-	<header>
-		<img src="./images/HEMA_Logo.svg.png" alt="HEMA-logo"> 
-	
-		<img class="profile" src="./images/profile.png" alt="profile" >
+    <header>
+		<section>
+			<audio id="audio" src="./images/HEMA-tune.mov" autostart="false"></audio>
+			<button onclick="clickHEMAlogo();"><img src="./images/HEMA_Logo.svg.png" alt="HEMAlogo"></button>
+		</section>
 
-		<img class="basket" src="./images/basket.png" alt="basket" >
-    </header>
+		<img src="./images/profile.png" alt="profile" >
+
+		<img src="./images/basket.png" alt="basket" >
+
+		<!-- Hamburger icoon -->
+		<div class="hamburger" id="hamburger">
+			&#9776; <!-- Dit is het symbool voor drie horizontale strepen -->
+		</div>
+		
+		<!-- Menu -->
+		<nav class="nav-menu" id="navMenu">
+			<ul>
+				<li><a href="#">Home</a></li>
+				<li><a href="#">Over</a></li>
+				<li><a href="#">Diensten</a></li>
+				<li><a href="#">Contact</a></li>
+			</ul>
+		</nav>
+	</header>
 
     <main>
 		<section class="topnav">
@@ -50,6 +67,6 @@
     <footer>
 
     </footer>
-    
+    <script defer src="scripts/script.js"></script>
 </body>
 </html>

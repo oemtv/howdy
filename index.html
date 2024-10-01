@@ -22,18 +22,25 @@
 			<audio id="audio" src="./images/HEMA-tune.mov" autostart="false"></audio>
 			<button onclick="clickHEMAlogo();"><img src="./images/HEMA_Logo.svg.png" alt="HEMAlogo"></button>
 		</section>
-		<script>
-			function clickHEMAlogo(){
-				var sound = document.getElementById('audio');
-				sound.play();
-			}
-		</script>
 
-		<section class="header-images">
-			<img src="./images/profile.png" alt="profile" >
+		<img src="./images/profile.png" alt="profile" >
 
-			<img src="./images/basket.png" alt="basket" >
-		</section>	
+		<img src="./images/basket.png" alt="basket" >
+
+		<!-- Hamburger icoon -->
+		<div class="hamburger" id="hamburger">
+			&#9776; <!-- Dit is het symbool voor drie horizontale strepen -->
+		</div>
+		
+		<!-- Menu -->
+		<nav class="nav-menu" id="navMenu">
+			<ul>
+				<li><a href="#">baby</a></li>
+				<li><a href="#">kind</a></li>
+				<li><a href="#">dames</a></li>
+				<li><a href="#">heren</a></li>
+			</ul>
+		</nav>
 	</header>
 
 	<main>
@@ -111,9 +118,10 @@
 		  <!-- nog meer spul -->
 		</section>
 		  
-		  <section class="upsale">
+		<section class="upsale">
+			<h2>dit vind je misschien ook leuk</h2>
 			<ul>
-			  <li>
+				<li>
 		  
 				<div>
 				  <img src="./images/nijntje-wit.jpeg">
@@ -137,11 +145,11 @@
 				  <p>nieuw</p>
 				</div>
 		  
-				<a href="#">Hier kan je op clicken</a>
+				<a href="https://www.hema.nl/vrije-tijd-kantoor/school-kantoor/schooltassen/rugzakken/opvouwbare-rugtas-54x35x19-rpet-zwart-18640068.html">opvouwbare rugtas 54x35x19 rpet zwart</a>
 		  
 				<div>
 				  <p>12.99</p>
-				  <button><img src="#" </button>
+				  <button><img src="./images/toevoegen.png"></button>
 				</div>
 		  
 			  </li>
@@ -157,7 +165,7 @@
 		  
 				<div>
 				  <p>19.99</p>
-				  <button><img src="#" </button>
+				  <button><img src="./images/toevoegen.png"></button>
 				</div>
 		  
 			  </li>
@@ -173,7 +181,7 @@
 		  
 				<div>
 				  <p>19.99</p>
-				  <button><img src="#" </button>
+				  <button><img src="./images/toevoegen.png"></button>
 				</div>
 		  
 			  </li>
@@ -189,7 +197,7 @@
 		  
 				<div>
 				  <p>19.99</p>
-				  <button><img src="#" </button>
+				  <button><img src="./images/toevoegen.png"></button>
 				</div>
 		  
 			  </li>
@@ -205,7 +213,7 @@
 		  
 				<div>
 				  <p>19.99</p>
-				  <button><img src="#" </button>
+				  <button><img src="./images/toevoegen.png"></button>
 				</div>
 		  
 			  </li>
@@ -221,19 +229,587 @@
 		  
 				<div>
 				  <p>19.99</p>
-				  <button><img src="#" </button>
+				  <button><img src="./images/toevoegen.png"></button>
 				</div>
 		  
 			  </li>
 			</ul>
-		  </section>
+		</section>
+
+		<!-- tweede sectie -->
+		<section class="upsale">
+			<h2>anderen kochten ook</h2>
+			<ul>
+				<li>
+		  
+				<div>
+				  <img src="./images/nijntje-koffie-mok.png">
+				  <button>♥</button>
+				  <p>nieuw</p>
+				</div>
+		  
+				<a href="https://www.hema.nl/vrije-tijd-kantoor/school-kantoor/schooltassen/rugzakken/nijntje-tas-met-sleutelhanger-60410261.html">Beker Nijntje</a>
+		  
+				<div>
+				  <p>5.99</p>
+				  <button><img src="./images/toevoegen.png"></button>
+				</div>
+		  
+			  </li>
+			  <li>
+		  
+				<div>
+				  <img src="./images/nijntje-thee-lepel.png">
+				  <button>♥</button>
+				  <p>nieuw</p>
+				</div>
+		  
+				<a href="https://www.hema.nl/vrije-tijd-kantoor/school-kantoor/schooltassen/rugzakken/opvouwbare-rugtas-54x35x19-rpet-zwart-18640068.html">opvouwbare rugtas 54x35x19 rpet zwart</a>
+		  
+				<div>
+				  <p>4.99</p>
+				  <button><img src="./images/toevoegen.png"></button>
+				</div>
+		  
+			  </li>
+			  <li>
+		  
+				<div>
+				  <img src="./images/nijntje-kussen.png">
+				  <button>♥</button>
+				  <p>nieuw</p>
+				</div>
+		  
+				<a href="#">Hier kan je op clicken</a>
+		  
+				<div>
+				  <p>17.99</p>
+				  <button><img src="./images/toevoegen.png"></button>
+				</div>
+		  
+			  </li>
+			  <li>
+		  
+				<div>
+				  <img src="./images/beertjes-kussen.png">
+				  <button>♥</button>
+				  <p>nieuw</p>
+				</div>
+		  
+				<a href="#">Hier kan je op clicken</a>
+		  
+				<div>
+				  <p>17.99</p>
+				  <button><img src="./images/toevoegen.png"></button>
+				</div>
+		  
+			  </li>
+			  <li>
+		  
+				<div>
+				  <img src="./images/nijntje-snoep-pot.png">
+				  <button>♥</button>
+				  <p>nieuw</p>
+				</div>
+		  
+				<a href="#">Hier kan je op clicken</a>
+		  
+				<div>
+				  <p>10.-</p>
+				  <button><img src="./images/toevoegen.png"></button>
+				</div>
+		  
+			  </li>
+			  <li>
+		  
+				<div>
+				  <img src="./images/nijntje-tote.png">
+				  <button>♥</button>
+				  <p>nieuw</p>
+				</div>
+		  
+				<a href="#">Hier kan je op clicken</a>
+		  
+				<div>
+				  <p>9.99</p>
+				  <button><img src="./images/toevoegen.png"></button>
+				</div>
+		  
+			  </li>
+			  <li>
+		  
+				<div>
+				  <img src="./images/nijntje-stempel-pot.png">
+				  <button>♥</button>
+				  <p>nieuw</p>
+				</div>
+		  
+				<a href="#">Hier kan je op clicken</a>
+		  
+				<div>
+				  <p>4.99</p>
+				  <button><img src="./images/toevoegen.png"></button>
+				</div>
+		  
+			  </li>
+
+			  <li>
+		  
+				<div>
+				  <img src="./images/nijntje-glazen-drinkfles.png">
+				  <button>♥</button>
+				  <p>nieuw</p>
+				</div>
+		  
+				<a href="#">Hier kan je op clicken</a>
+		  
+				<div>
+				  <p>9.99</p>
+				  <button><img src="./images/toevoegen.png"></button>
+				</div>
+		  
+			  </li>
+
+			  <li>
+		  
+				<div>
+				  <img src="./images/blauw-nijntje-knuffel.png">
+				  <button>♥</button>
+				  <p>nieuw</p>
+				</div>
+		  
+				<a href="#">Hier kan je op clicken</a>
+		  
+				<div>
+				  <p>15.99</p>
+				  <button><img src="./images/toevoegen.png"></button>
+				</div>
+		  
+			  </li>
+
+			  <li>
+		  
+				<div>
+				  <img src="./images/nijntje-kruik.png">
+				  <button>♥</button>
+				  <p>nieuw</p>
+				</div>
+		  
+				<a href="#">Hier kan je op clicken</a>
+		  
+				<div>
+				  <p>11.99</p>
+				  <button><img src="./images/toevoegen.png"></button>
+				</div>
+		  
+			  </li>
+
+			  <li>
+		  
+				<div>
+				  <img src="./images/nijntje-sneeuwbol.png">
+				  <button>♥</button>
+				  <p>nieuw</p>
+				</div>
+		  
+				<a href="#">Hier kan je op clicken</a>
+		  
+				<div>
+				  <p>6</p>
+				  <button><img src="./images/toevoegen.png"></button>
+				</div>
+		  
+			  </li>
+
+			  <li>
+		  
+				<div>
+				  <img src="./images/nijntje-plaid-deken.png">
+				  <button>♥</button>
+				  <p>nieuw</p>
+				</div>
+		  
+				<a href="#">Hier kan je op clicken</a>
+		  
+				<div>
+				  <p>18.99</p>
+				  <button><img src="./images/toevoegen.png"></button>
+				</div>
+		  
+			  </li>
+
+			  <li>
+		  
+				<div>
+				  <img src="./images/nijntje-kom.png">
+				  <button>♥</button>
+				  <p>nieuw</p>
+				</div>
+		  
+				<a href="#">Hier kan je op clicken</a>
+		  
+				<div>
+				  <p>3.59</p>
+				  <button><img src="./images/toevoegen.png"></button>
+				</div>
+		  
+			  </li>
+
+			  <li>
+		  
+				<div>
+				  <img src="./images/nijntje-usb.png">
+				  <button>♥</button>
+				  <p>nieuw</p>
+				</div>
+		  
+				<a href="#">Hier kan je op clicken</a>
+		  
+				<div>
+				  <p>10.-</p>
+				  <button><img src="./images/toevoegen.png"></button>
+				</div>
+		  
+			  </li>
+
+			  <li>
+		  
+				<div>
+				  <img src="./images/nijntje-powerbank.png">
+				  <button>♥</button>
+				  <p>nieuw</p>
+				</div>
+		  
+				<a href="#">Hier kan je op clicken</a>
+		  
+				<div>
+				  <p>17.50</p>
+				  <button><img src="./images/toevoegen.png"></button>
+				</div>
+		  
+			  </li>
+
+			  <li>
+		  
+				<div>
+				  <img src="./images/creme-beertjes-kruik.png">
+				  <button>♥</button>
+				  <p>nieuw</p>
+				</div>
+		  
+				<a href="#">Hier kan je op clicken</a>
+		  
+				<div>
+				  <p>11.99</p>
+				  <button><img src="./images/toevoegen.png"></button>
+				</div>
+		  
+			  </li>
+
+			  <li>
+		  
+				<div>
+				  <img src="./images/nijntje-theedoeken.png">
+				  <button>♥</button>
+				  <p>nieuw</p>
+				</div>
+		  
+				<a href="#">Hier kan je op clicken</a>
+		  
+				<div>
+				  <p>7.49</p>
+				  <button><img src="./images/toevoegen.png"></button>
+				</div>
+		  
+			  </li>
+
+			  <li>
+		  
+				<div>
+				  <img src="./images/nijntje-bakvormen.png">
+				  <button>♥</button>
+				  <p>nieuw</p>
+				</div>
+		  
+				<a href="#">Hier kan je op clicken</a>
+		  
+				<div>
+				  <p>7.50</p>
+				  <button><img src="./images/toevoegen.png"></button>
+				</div>
+		  
+			  </li>
+
+			  <li>
+		  
+				<div>
+				  <img src="./images/nijntje-koek-blik.png">
+				  <button>♥</button>
+				  <p>nieuw</p>
+				</div>
+		  
+				<a href="#">Hier kan je op clicken</a>
+		  
+				<div>
+				  <p>12.99</p>
+				  <button><img src="./images/toevoegen.png"></button>
+				</div>
+		  
+			  </li>
+
+			  <li>
+		  
+				<div>
+				  <img src="./images/nijntje-ovenwant.png">
+				  <button>♥</button>
+				  <p>nieuw</p>
+				</div>
+		  
+				<a href="#">Hier kan je op clicken</a>
+		  
+				<div>
+				  <p>5.99</p>
+				  <button><img src="./images/toevoegen.png"></button>
+				</div>
+		  
+			  </li>
+
+			  <li>
+		  
+				<div>
+				  <img src="./images/nijntje-ijsblok-vormen.png">
+				  <button>♥</button>
+				  <p>nieuw</p>
+				</div>
+		  
+				<a href="#">Hier kan je op clicken</a>
+		  
+				<div>
+				  <p>5.-</p>
+				  <button><img src="./images/toevoegen.png"></button>
+				</div>
+		  
+			  </li>
+
+			  <li>
+		  
+				<div>
+				  <img src="./images/nijntje-gezicht-blik.png">
+				  <button>♥</button>
+				  <p>nieuw</p>
+				</div>
+		  
+				<a href="#">Hier kan je op clicken</a>
+		  
+				<div>
+				  <p>9.99</p>
+				  <button><img src="./images/toevoegen.png"></button>
+				</div>
+		  
+			  </li>
+
+			  <li>
+		  
+				<div>
+				  <img src="./images/nijntje-stickerboek.png">
+				  <button>♥</button>
+				  <p>nieuw</p>
+				</div>
+		  
+				<a href="#">Hier kan je op clicken</a>
+		  
+				<div>
+				  <p>3.59</p>
+				  <button><img src="./images/toevoegen.png"></button>
+				</div>
+		  
+			  </li>
+
+			  <li>
+		  
+				<div>
+				  <img src="./images/nijntje-papier.png">
+				  <button>♥</button>
+				  <p>nieuw</p>
+				</div>
+		  
+				<a href="#">Hier kan je op clicken</a>
+		  
+				<div>
+				  <p>3.-</p>
+				  <button><img src="./images/toevoegen.png"></button>
+				</div>
+		  
+			  </li>
+
+			  <li>
+		  
+				<div>
+				  <img src="./images/nijntje-airpod-case.png">
+				  <button>♥</button>
+				  <p>nieuw</p>
+				</div>
+		  
+				<a href="#">Hier kan je op clicken</a>
+		  
+				<div>
+				  <p>5.-</p>
+				  <button><img src="./images/toevoegen.png"></button>
+				</div>
+		  
+			  </li>
+
+			  <li>
+		  
+				<div>
+				  <img src="./images/nijntje-phone-grip.png">
+				  <button>♥</button>
+				  <p>nieuw</p>
+				</div>
+		  
+				<a href="#">Hier kan je op clicken</a>
+		  
+				<div>
+				  <p>4.-</p>
+				  <button><img src="./images/toevoegen.png"></button>
+				</div>
+		  
+			  </li>
+
+			  <li>
+		  
+				<div>
+				  <img src="./images/nijntje-koek-mal.png">
+				  <button>♥</button>
+				  <p>nieuw</p>
+				</div>
+		  
+				<a href="#">Hier kan je op clicken</a>
+		  
+				<div>
+				  <p>3.50</p>
+				  <button><img src="./images/toevoegen.png"></button>
+				</div>
+		  
+			  </li>
+			</ul>
+		</section>
 	</main>
 
 	<footer>
+		<section class="footer-deel-1">
+			<h2>vind een winkel</h2>
+			
+			<p>zoek een winkel bij jou in de buurt</p>
 
+			<section class="topnav">
+				<input type="search" placeholder="waar ben je naar op zoek?">
+			</section>
+
+			<h2>hulp nodig?</h3>
+
+			<ul>
+				<li><a href="#" >mijn bestelling</a></li>
+				<li><a href="#" >bezorgen of afhalen</a></li>
+				<li><a href="#" >ruilen en retouneren</a></li>
+			</ul>
+
+			<h2>andere vraag?</h2>
+			<p>ga naar <a href="#">onze klantenservice</a></p>
+		</section>
+
+		<section class="blijf-op-de-hoogte">
+			<h2>altijd op de hoogt van onze acties</h2>
+
+			<p>Schrijf je in voor de HEMA nieuwsbrief. Meermaals per week de laatste (online) aanbiediingen. Krijg direct 10% korting na aanmelding. Afmelden kan altijd.</p>
+		
+			<section class="topnav">
+				<input type="search" placeholder="waar ben je naar op zoek?">
+			</section>
+
+			<button>
+				<p>aanmelden</p>
+			</button>
+
+			<span class="lijn"></span>
+		</section>
+
+		<section class="links">
+			<h2>volg HEMA</h2>
+			<ul>
+				<li>
+					<img src="./images/facebook-icon.png">
+				</li>
+
+				<li>
+					<img src="./images/x-icon.png">
+				</li>
+
+				<li>
+					<img src="./images/whatsapp-icon.png">
+				</li>
+
+				<li>
+					<img src="./images/instagram-icon.png">
+				</li>
+
+				<li>
+					<img src="./images/snapchat-icon.png">
+				</li>
+
+				<li>
+					<img src="./images/pinterest-icon.png">
+				</li>
+
+				<li>
+					<img src="./images/tiktok-icon.png">
+				</li>
+
+				<li>
+					<img src="./images/youtube-icon.png">
+				</li>
+			</ul>
+		</section>
+
+		<section class="navigatie">
+			<h2>makkelijk betalen*</h2>
+			<ul>
+				<li>
+					<img src="./images/facebook-icon.png">
+				</li>
+
+				<li>
+					<img src="./images/x-icon.png">
+				</li>
+
+				<li>
+					<img src="./images/whatsapp-icon.png">
+				</li>
+
+				<li>
+					<img src="./images/instagram-icon.png">
+				</li>
+
+				<li>
+					<img src="./images/snapchat-icon.png">
+				</li>
+
+				<li>
+					<img src="./images/pinterest-icon.png">
+				</li>
+
+				<li>
+					<img src="./images/tiktok-icon.png">
+				</li>
+
+				<li>
+					<img src="./images/youtube-icon.png">
+				</li>
+			</ul>
+			<p>*afhankelijk van de gekozen bezorgopties</p>
+		</section>
 	</footer>
 	<script defer src="scripts/script.js"></script>
 </body>
 	
 </html>
-
